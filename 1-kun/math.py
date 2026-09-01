@@ -22,4 +22,4 @@ butun = 9 // 2
 print(butun)
 
 hisob = 10 + 2 * 5 ** 2
-print(hisob)
+print(hisob	)
