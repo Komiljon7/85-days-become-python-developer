@@ -42,8 +42,24 @@ print(a)
 
 # ro'yxatlar turli xil narsalarni 1ta joyda yig'ish
 
-# list is mutable (o'zgaruvchan)
+# list[] is mutable (o'zgaruvchan)swap qila olamiz va qo'sha olamiz
 
 diffirent_type_in_oneplace = ['komiljon', True, 12, [1,2,3]]
 diffirent_type_in_oneplace.append('roziyev')
 print(komiljon)
+
+# kortejlar("ro'yxatlar") is immutable oddiy qavsdan foydalanamiz
+tuple1 = (1, 2, "komiljon")#static ma'lumotlar uchun eng zo'ri
+
+# to'plamlar(set) umuman tartibsiz va takroriy qiymatni hech qachon qabul qilmaydi
+toplam = {1 ,2, 2, 'komiljon'}	
+
+ # dictionary lug'at = kalit va qiymat
+lugat = {1: "komiljon", 2: "roziyev"}
+
+lugat.values() #qiymatlar valuelarni ajratib olish uchun
+lugat.keys() # faqat kalitlar 1 2 birinchi kalit keladi ushani olish uchun
+lugat.items()# kalit + qiymatni olish
+
+print(lugat)
+
